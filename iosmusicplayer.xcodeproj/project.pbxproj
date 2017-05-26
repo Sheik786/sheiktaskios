@@ -15,6 +15,7 @@
 		8446502E1ED8074E0089DD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446502C1ED8074E0089DD89 /* LaunchScreen.storyboard */; };
 		844650391ED8074E0089DD89 /* iosmusicplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844650381ED8074E0089DD89 /* iosmusicplayerTests.m */; };
 		844650441ED8074E0089DD89 /* iosmusicplayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844650431ED8074E0089DD89 /* iosmusicplayerUITests.m */; };
+		844650521ED807650089DD89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844650511ED807650089DD89 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8446503F1ED8074E0089DD89 /* iosmusicplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosmusicplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844650431ED8074E0089DD89 /* iosmusicplayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosmusicplayerUITests.m; sourceTree = "<group>"; };
 		844650451ED8074E0089DD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844650511ED807650089DD89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844650521ED807650089DD89 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		844650121ED8074D0089DD89 = {
 			isa = PBXGroup;
 			children = (
+				844650511ED807650089DD89 /* AVFoundation.framework */,
 				8446501D1ED8074E0089DD89 /* iosmusicplayer */,
 				844650371ED8074E0089DD89 /* iosmusicplayerTests */,
 				844650421ED8074E0089DD89 /* iosmusicplayerUITests */,
